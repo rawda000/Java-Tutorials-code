@@ -1,5 +1,6 @@
 public class PrimitiveTypes {
     public static void main(String[] args) {
+
         /**
          * boolean
          * a boolean value: true or false
@@ -20,6 +21,7 @@ public class PrimitiveTypes {
          */
 
         System.out.println("*** Primitive Data Types program ***");
+        // A variable of specific type stores a value of that type
 
         ///////////////// boolean //////////////////////
         boolean myBoolean = true;
