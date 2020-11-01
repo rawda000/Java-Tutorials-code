@@ -22,54 +22,54 @@ public class PrimitiveTypes {
 
         System.out.println("*** Primitive Data Types program ***");
         // A variable of specific type stores a value of that type
-
+        System.out.println("--------------------------------------");
         ///////////////// boolean //////////////////////
         boolean myBoolean = true;
         myBoolean = false;
         System.out.println("myBoolean : " + myBoolean); // prints false
-
+        System.out.println("--------------------------------------");
         ////////////////// char //////////////////////////////
         char myChar = 'c';
         System.out.println("myChar : " + myChar);
-
+        System.out.println("--------------------------------------");
         /////////////////// byte //////////////////////////////
         byte myByte = 9;
         System.out.println("myByte : " + myByte);
         System.out.println("byte Max value : " + Byte.MAX_VALUE); // Max Value to be assigned to a byte variable
         System.out.println("byte Min value : " + Byte.MIN_VALUE); // Min Value to be assigned to a byte variable
-
+        System.out.println("--------------------------------------");
         /////////////////// short ////////////////////////
         short myShort = 12;
         System.out.println("myShort : " + myShort);
         System.out.println("short Max value : " + Short.MAX_VALUE);
         System.out.println("short Min value : " + Short.MIN_VALUE);
-
+        System.out.println("--------------------------------------");
         //////////////// Integer /////////////////////////
         int myInt = 12;
         System.out.println("myInt : " + myInt);
         System.out.println("int Max Value : " + Integer.MAX_VALUE);
         System.out.println("int min value : " + Integer.MIN_VALUE);
-
+        System.out.println("--------------------------------------");
         //////////////// long ///////////////////////
         long myLong = 12;
         System.out.println("myLong" + myLong);
         System.out.println("long Max Value : " + Long.MAX_VALUE);
         System.out.println("long Min Value : " + Long.MIN_VALUE);
-
+        System.out.println("--------------------------------------");
         /////////////// float ///////////////////
         float myFloat = 12.3f;
         myFloat = 12.0f;
         System.out.println("myFloat : " + myFloat);
         System.out.println("float Min Value :" + Float.MIN_VALUE);
         System.out.println("float Max Value : " + Float.MAX_VALUE);
-
+        System.out.println("--------------------------------------");
         /////////// double /////////////////////
         double myDouble = 12.3f;
         myDouble = 12.0f;
         System.out.println("myDouble : " + myDouble);
         System.out.println("double Min Value :" + Double.MIN_VALUE);
         System.out.println("double Max Value : " + Double.MAX_VALUE);
-
+        System.out.println("--------------------------------------");
 
     }
 }
