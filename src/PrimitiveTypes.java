@@ -26,49 +26,49 @@ public class PrimitiveTypes {
         ///////////////// boolean //////////////////////
         boolean myBoolean = true;
         myBoolean = false;
-        System.out.println(myBoolean); // prints false
+        System.out.println("myBoolean : " + myBoolean); // prints false
 
         ////////////////// char //////////////////////////////
         char myChar = 'c';
-        System.out.println(myChar);
+        System.out.println("myChar : " + myChar);
 
         /////////////////// byte //////////////////////////////
         byte myByte = 9;
-        System.out.println(myByte);
-        System.out.println(Byte.MAX_VALUE); // Max Value to be assigned to a byte variable
-        System.out.println(Byte.MIN_VALUE); // Min Value to be assigned to a byte variable
+        System.out.println("myByte : " + myByte);
+        System.out.println("byte Max value : " + Byte.MAX_VALUE); // Max Value to be assigned to a byte variable
+        System.out.println("byte Min value : " + Byte.MIN_VALUE); // Min Value to be assigned to a byte variable
 
         /////////////////// short ////////////////////////
         short myShort = 12;
-        System.out.println(myShort);
-        System.out.println(Short.MAX_VALUE);
-        System.out.println(Short.MIN_VALUE);
+        System.out.println("myShort : " + myShort);
+        System.out.println("short Max value : " + Short.MAX_VALUE);
+        System.out.println("short Min value : " + Short.MIN_VALUE);
 
         //////////////// Integer /////////////////////////
         int myInt = 12;
-        System.out.println(myInt);
-        System.out.println(Integer.MAX_VALUE);
-        System.out.println(Integer.MIN_VALUE);
+        System.out.println("myInt : " + myInt);
+        System.out.println("int Max Value : " + Integer.MAX_VALUE);
+        System.out.println("int min value : " + Integer.MIN_VALUE);
 
         //////////////// long ///////////////////////
         long myLong = 12;
-        System.out.println(myLong);
-        System.out.println(Long.MAX_VALUE);
-        System.out.println(Long.MIN_VALUE);
+        System.out.println("myLong" + myLong);
+        System.out.println("long Max Value : " + Long.MAX_VALUE);
+        System.out.println("long Min Value : " + Long.MIN_VALUE);
 
         /////////////// float ///////////////////
         float myFloat = 12.3f;
         myFloat = 12.0f;
-        System.out.println(myFloat);
-        System.out.println(Float.MIN_VALUE);
-        System.out.println(Float.MAX_VALUE);
+        System.out.println("myFloat : " + myFloat);
+        System.out.println("float Min Value :" + Float.MIN_VALUE);
+        System.out.println("float Max Value : " + Float.MAX_VALUE);
 
         /////////// double /////////////////////
         double myDouble = 12.3f;
         myDouble = 12.0f;
-        System.out.println(myDouble);
-        System.out.println(Double.MIN_VALUE);
-        System.out.println(Double.MAX_VALUE);
+        System.out.println("myDouble : " + myDouble);
+        System.out.println("double Min Value :" + Double.MIN_VALUE);
+        System.out.println("double Max Value : " + Double.MAX_VALUE);
 
 
     }
